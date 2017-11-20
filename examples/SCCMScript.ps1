@@ -51,7 +51,7 @@ function Get-Hostname {
 #Main Script Body
 $StartScript = {
     #Get hostname of computer
-    $computer = Get-Hostname
+    #$computer = Get-Hostname
     Do {
         
         #Configure enable choice 

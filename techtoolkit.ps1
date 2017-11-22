@@ -48,4 +48,32 @@ function Write-MainMenu() {
 Do {
     Write-MainMenu
     $userChoice = Read-Host
+
+    switch ($userChoice) {
+        # bypass autologon
+        1 { }
+
+        # get last logged on user
+        2 { }
+
+        # get current logged on user
+        3 { }
+
+        # install printer on remote device
+        4 { }
+
+        # mass ping request
+        5 { }
+
+        # force group policy update
+        6 { }
+
+        # reinstall sccm
+        7 { }
+
+        # run configuration manager actions
+        8 { }
+
+        # toggle bitlocker
+    }
 } Until ($userChoice -eq "11")
